@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+    <info organisation="punya" module="linegraph" />
+    <dependencies>
+    	<dependency org="com.lowagie" name="itext" rev="latest.integration" conf="default" />
+    	<dependency org="net.sf.opencsv" name="opencsv" rev="latest.integration" conf="default" />
+    	<dependency org="com.google.guava" name="guava" rev="latest.integration" conf="default" />
+    	<dependency org="com.google.inject" name="guice" rev="latest.integration" conf="default" />
+    </dependencies>
+</ivy-module>
